@@ -37,3 +37,9 @@ void pilihanJurusan(){
             break;
     }
 }
+
+void output (){
+    cout << "\n=== HASIL SELEKSI ===" << endl;
+    cout << "Jurusan Pilihan : " << namaJurusan << endl;
+    cout << "Status Kuota : " << statusKuota<< endl;
+}
