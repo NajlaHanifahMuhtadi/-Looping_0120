@@ -43,3 +43,11 @@ void output (){
     cout << "Jurusan Pilihan : " << namaJurusan << endl;
     cout << "Status Kuota : " << statusKuota<< endl;
 }
+
+int main(){
+    input();
+    pilihanJurusan();
+    output();
+
+    return 0;
+}
